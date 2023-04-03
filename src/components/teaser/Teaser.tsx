@@ -2,14 +2,18 @@ import React from 'react';
 import {Title} from '@components/title';
 import {PublishedDate} from '@components/date';
 
-type Props = {};
+type Props = {
+    title: string;
+    publishedDate: number;
+    teaserText: string;
+};
 
-const Teaser: React.FC<Props> = () => {
+const Teaser: React.FC<Props> = ({title, publishedDate, teaserText}) => {
     return (
         <div>
-            <Title title={'Title'} />
-            <PublishedDate publishedDate={1680487842761} />
-            <p className="primary">Teaser Text</p>
+            <Title title={title} />
+            <PublishedDate publishedDate={publishedDate} />
+            <p className="primary">{teaserText}</p>
         </div>
     );
 };
