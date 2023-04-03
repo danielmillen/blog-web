@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
 type Props = {
     title: string;
 };
 
-const Title: React.FC<Props> = ({ title }) => {
+const Title: React.FC<Props> = ({title}) => {
     return (
         <div>
-            <h1 className="primary">{title}</h1>
+            <h1 className="secondary">{title}</h1>
         </div>
     );
 };
