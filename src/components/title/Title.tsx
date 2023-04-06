@@ -6,7 +6,7 @@ type Props = {
 
 const Title: React.FC<Props> = ({title}) => {
     return (
-        <div>
+        <div className="title">
             <h1 className="secondary">{title}</h1>
         </div>
     );

@@ -1,9 +1,9 @@
-import {Teaser} from '@components/teaser';
+import {Homepage} from '@pages/homepage';
 
 export default function Home() {
     return (
         <>
-            <Teaser />
+            <Homepage />
         </>
     );
 }
