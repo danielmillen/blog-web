@@ -10,9 +10,9 @@ type Props = {
 
 const Teaser: React.FC<Props> = ({title, publishedDate, teaserText}) => {
     return (
-        <div>
-            <Title title={title} />
+        <div className="teaserCard">
             <PublishedDate publishedDate={publishedDate} />
+            <Title title={title} />
             <p className="primary">{teaserText}</p>
         </div>
     );

@@ -20,3 +20,31 @@
     background-color: #0f0f0a;
   }
 }
+
+
+.teaserCard {
+  padding: 20px;
+  margin-bottom: 20px;
+  align-items: justify;
+  border-radius: 3px;
+  max-width: 600px;
+}
+
+.teaserCards {
+  flex-direction: column;
+  display: flex;
+  margin: 50px;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.publishedDate {
+  font-size: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
